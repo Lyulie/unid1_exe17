@@ -1,14 +1,8 @@
-# Unidade 1 - Exercício 14 - Java
-Esse exercício foi escrito em Java e testado com Gradle ou Maven/jUnit.
+# Unidade 1 - Exercício 17 - Java
+A próxima funcionalidade a ser implementada são os detalhes de impostos da venda.
 
-Crie mais casos de teste e os faça passar para os seguintes cenários:
+Os impostos são regidos por uma lei cujo númeor é impresso no cupom (Lei 12.741). Também são calculados os valores aproximados dos impostos federais e estaduais, cuja taxa sobre o total da venda é 7,54% e 4,81% respectivamente.
 
- - Venda sem itens - o cupom fiscal não pode ser impresso
- - Venda com dois itens diferentes apontando para o mesmo produto - lança erro ao adicionar o item com produto repetido
- - Item de Venda com quantidade zero ou negativa - não pode ser adicionado na venda
- - Produto com valor unitário zero ou negativo - item não pode ser adicionado na venda com produto nesse estado
-
-### Comando para execução
-`gradle test`
-ou
-`mvn test`
+Atualize o código para calcular e imprimir os detalhes de impostos no cupom.
+Submeta uma URL de um repositório Github com o código da resposta (em uma das três linguagens).
+A aplicação deve estar completa, com todo o código já estudado nesta Unidade 1 e os testes devem estar passando.
